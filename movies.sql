@@ -1,0 +1,17 @@
+Challenge: Box office hits database
+
+CREATE TABLE movies (id INTEGER PRIMARY KEY, name TEXT, release_year INTEGER);
+INSERT INTO movies VALUES (1, "Avatar", 2009);
+INSERT INTO movies VALUES (2, "Titanic", 1997);
+INSERT INTO movies VALUES (3, "Star Wars: Episode IV - A New Hope", 1977);
+INSERT INTO movies VALUES (4, "Shrek 2", 2004);
+INSERT INTO movies VALUES (5, "The Lion King", 1994);
+INSERT INTO movies VALUES (6, "Disney's Up", 2009);
+
+First select all the movies in the database.
+
+select * from movies;
+
+Query to retrieve only films released after 2000. List the older films first.
+
+select * from movies where release_year > 2000 order by release_year;
