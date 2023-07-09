@@ -1,4 +1,4 @@
-##Challenge: Book list database
+Challenge: Book list database
 
 Create a database table to store favorite books.
 
